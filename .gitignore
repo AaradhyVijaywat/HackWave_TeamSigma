@@ -1,22 +1,39 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Next.js build output
+.next/
 
-# C extensions
-*.so
+# Node.js dependencies
+node_modules/
 
-# Distribution / packaging
-.Python
-env/
-build/
-dist/
-egg-info/
-.eggs/
+# Environment variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
 
-# Virtual environments
-venv/
-env/
-ENV/
-env.bak/
-venv.bak/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Next.js specific files
+.next/cache/
+.next/server/
+
+# Optional: Ignore the public directory if you're not using it
+# public/
+
+# Optional: Ignore the .next/static directory if you're not using it
+# .next/static/
